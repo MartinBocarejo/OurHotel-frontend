@@ -1,0 +1,153 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+    color: #5a5a5a;
+    }
+
+.siguenos{
+    color: #ffffff8c;
+}
+
+.siguenos h3{
+    font-size: 26px; 
+    padding-top: 4px;
+}
+
+.siguenos a {
+    color:#198754 !important;
+}
+
+
+.menucenter li {
+    line-height: 100%!important;
+    font-weight: 100;
+    font-size: 1.5rem;
+    padding-left: 60px;
+    }
+
+a.nav-link:hover,
+a.nav-link:focus{
+    color:#198754 !important;
+    -moz-transition:ease-in-out 1s;
+    -webkit-transition: ease-in-out 0.5s;
+    -o-transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.5s;
+    text-decoration:none;
+    }
+
+.form-control:focus {
+        box-shadow: 0 0 0 0.25rem rgba(25,135,84,.25) !important;
+    }
+
+  /* iconos redes sociales */  
+
+a.youtube {
+    background: url(/static/imagenes/ico-youtube.png);
+    width: 38px;
+    height: 38px;
+    float: left;
+    background-size: contain;
+    margin: 0 20px;
+}
+
+
+a.twitter {
+    background: url(/static/imagenes/ico-twitter.png);
+    width: 38px;
+    height: 38px;
+    float: left;
+    background-size: contain;
+    margin: 0 20px;
+}
+
+
+a.facebook {
+    background: url(/static/imagenes/ico-facebook.png);
+    width: 38px;
+    height: 38px;
+    float: left;
+    background-size: contain;
+    margin: 0 20px;
+}
+
+a.instagram {
+    background: url(/static/imagenes/ico-instagram.png);
+    width: 38px;
+    height: 38px;
+    float: left;
+    background-size: contain;
+    margin: 0 20px;
+}
+
+.sr-only {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    border: 0;
+    white-space: nowrap;
+}
+
+
+a.youtube:hover,
+a.youtube:focus {
+    background: url(/static/imagenes/ico-youtubeh.png);
+    background-size: contain;
+    -moz-transition: ease-in-out 1s;
+    -webkit-transition: ease-in-out 0.5s;
+    -o-transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.5s;
+    text-decoration: none;
+}
+
+
+a.twitter:hover,
+a.twitter:focus {
+    background: url(/static/imagenes/ico-twitterh.png);
+    background-size: contain;
+    -moz-transition: ease-in-out 1s;
+    -webkit-transition: ease-in-out 0.5s;
+    -o-transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.5s;
+    text-decoration: none;
+}
+
+a.facebook:hover,
+a.facebook:focus {
+    background: url(/static/imagenes/ico-facebookh.png);
+    background-size: contain;
+    -moz-transition: ease-in-out 1s;
+    -webkit-transition: ease-in-out 0.5s;
+    -o-transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.5s;
+    text-decoration: none;
+}
+
+a.instagram:hover,
+a.instagram:focus {
+    background: url(/static/imagenes/ico-instagramh.png);
+    background-size: contain;
+    -moz-transition: ease-in-out 1s;
+    -webkit-transition: ease-in-out 0.5s;
+    -o-transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.5s;
+    text-decoration: none;
+}
+
+/* iconos ubicación  */
+
+.location {
+    padding: 10px 0px 10px 30px;
+    background: url(/static/imagenes/location.png) left 9px no-repeat;
+    background-size: 20px 20px;
+}
+
+.phone {
+    margin: 25% !important;
+    padding: 10px 0px 10px 30px;
+    background: url(/static/imagenes/phone.png) left 9px no-repeat;
+    background-size: 20px 20px;
+}
